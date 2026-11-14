@@ -12,6 +12,8 @@ This guide distinguishes three **sanitized WGU-derived design case studies** fro
 
 The three studies overlap on segmentation, logging, security, and automation because those are common cross-cutting requirements. Their distinct value is in the **decision under review**, rather than repeated claims about the technologies listed.
 
+**Original WGU source checks:** The [E028 modernization evidence map](https://github.com/montezguido/healthcare-hybrid-cloud-modernization/blob/main/docs/e028-design-evidence.md) summarizes the original hybrid-cloud proposal. The [E026 AI architecture evidence map](https://github.com/montezguido/ai-enhanced-network-operations-security/blob/main/docs/e026-design-evidence.md) summarizes the original network presentation. Both distinguish documented design decisions from production deployment. The academic sources themselves remain private.
+
 ## Primary security decision: why a phased approach?
 
 The security case study evaluates two alternatives:
