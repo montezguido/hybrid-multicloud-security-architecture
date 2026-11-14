@@ -1,5 +1,20 @@
 # Hybrid & Multicloud Security Architecture
 
+## Recruiter overview — security architecture decision
+
+**Portfolio role:** Primary WGU-derived security architecture case study (**documentation and design**, not deployed infrastructure).
+
+**Problem:** A post-merger enterprise must securely connect legacy systems with AWS, Azure, and Google Cloud while standardizing visibility and access control.
+
+**Decision:** Compare (1) controlled hybrid connectivity with centralized security telemetry against (2) identity-centric Zero Trust and continuous posture management. Recommend a phased approach: stabilize monitoring and connectivity, then strengthen federation, authorization, and segmentation.
+
+**Evidence:** Architecture alternatives, tradeoff matrix, risks, and phased recommendation are documented below. **No live multicloud implementation, configured SIEM, test suite, or compliance verification is claimed here.**
+
+**Related work:** [Reviewer guide and evidence map](docs/portfolio-architecture-guide.md) distinguishes this case from the [healthcare modernization](https://github.com/montezguido/healthcare-hybrid-cloud-modernization) and [AI operations design](https://github.com/montezguido/ai-enhanced-network-operations-security) case studies.
+
+---
+
+
 ## Overview
 
 This repository presents a sanitized enterprise security architecture case study for integrating a legacy on-premises environment with workloads distributed across AWS, Microsoft Azure, and Google Cloud following an organizational merger.
